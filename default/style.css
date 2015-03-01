@@ -1,0 +1,177 @@
+/*****************************************************/
+/****General****/
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:#e2f6ff url('images/background.jpg') center top no-repeat;
+	padding-left:10%;
+	padding-right:10%;
+	font-family:Arial, Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#ffffff;
+
+}
+a:hover
+{
+	color:#ffff00;
+}
+img, table, tr, td
+{
+	border:0px;
+}
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+.clean
+{
+	clear:both;
+}
+.left
+{
+	text-align:left;
+}
+.center
+{
+	text-align:center;
+}
+input
+{
+	width:150px;
+}
+label
+{
+	width:200px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+table
+{
+	border-spacing:0px;
+	background:#ffffff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	padding:0px;
+	width:95%;
+	margin:5px auto 5px auto;
+	border: 1px solid white;
+}
+tr
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+
+}
+td, th
+{
+	margin:0px;
+	border:1px solid white;
+	padding:3px;
+	text-align:center;
+	background-color:#000000;
+}
+/*****************************************************/
+/****Blocks****/
+.header
+{
+	margin:auto;
+	margin-top:10px;
+	padding:15px;
+	
+	width:70%;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	text-align:center;
+}
+.foot
+{
+	text-align:center;
+	
+	width:60%;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:auto;
+	padding:10px;
+	margin-top:20px;
+}
+.content
+{
+	
+	width:65%;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	margin:auto;
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+}
+/*****************************************************/
+/****Content****/
+.big
+{
+	font-size:1.2em;
+}
+.small
+{
+	font-size:0.7em;
+}
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table td
+{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+}
+.author
+{
+	width:150px;
+	border-right:1px solid #aaaaaa;
+}
+.title_cell
+{
+	width:45%;
+}
+.date
+{
+	font-style:italic;
+	text-align:right;
+	font-size:0.9em;
+	margin-right:10px;
+}
+.link_new_pm
+{
+	font-size:1.3em;
+	font-weight:bold;
+	margin:5px 0px 5px 0px;
+	display:inline-block;
+	border:1px solid #dddddd;
+	background:#000000;
+	padding:5px;
+}
